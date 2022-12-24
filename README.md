@@ -54,8 +54,7 @@ The `getActiveBody()` method points to the currently-active body.
 **[Chain](https://soot-build.cs.uni-paderborn.de/public/origin/develop/soot/soot-develop/jdoc/soot/util/Chain.html)** - 
 Augmented data type guaranteeing O(1) insertion and removal from a set of ordered, unique elements.
 
-**[Stmt]([https://soot-build.cs.uni-paderborn.de/public/origin/develop/soot/soot-develop/jdoc/soot/JastAddJ/Stmt.html](https://soot-build.cs.uni-paderborn.de/public/origin/develop/soot/soot-develop/jdoc/soot/jimple/Stmt.html))** -
-Statements
+**[Stmt](https://soot-build.cs.uni-paderborn.de/public/origin/develop/soot/soot-develop/jdoc/soot/jimple/Stmt.html)** - Statements
 
 **[AssignStmt](https://soot-build.cs.uni-paderborn.de/public/origin/develop/soot/soot-develop/jdoc/soot/jimple/AssignStmt.html)** -
 Assignment Statements
