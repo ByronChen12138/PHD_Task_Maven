@@ -13,8 +13,7 @@ After installing everything correctly, please build this project using Maven and
 ## Notes
 
 ### Classes
-**[BodyTransformer](https://soot-build.cs.uni-paderborn.de/public/origin/develop/soot/soot-develop/jdoc/soot/BodyTransformer.html)** - any customized analysis should extend this class,
-This method is invoked once for every method in the analysis subject. By using:
+**[BodyTransformer](https://soot-build.cs.uni-paderborn.de/public/origin/develop/soot/soot-develop/jdoc/soot/BodyTransformer.html)** - Any customized analysis should extend this class. This method is invoked once for every method in the analysis subject. By using:
 
 ``` java
 String jarFilePath = <Path of the Subject>;
@@ -40,7 +39,7 @@ protected abstract void internalTransform(Body b,
                                           Map<String, String> options)
 ```
 
-**[Body](https://soot-build.cs.uni-paderborn.de/public/origin/develop/soot/soot-develop/jdoc/soot/JastAddJ/Body.html)** - the
+**[Body](https://soot-build.cs.uni-paderborn.de/public/origin/develop/soot/soot-develop/jdoc/soot/JastAddJ/Body.html)** - The
 body of the code for applying the transformation
 
 **[SootMethod](https://soot-build.cs.uni-paderborn.de/public/origin/develop/soot/soot-develop/jdoc/soot/SootMethod.html)** - Soot representation of a Java method. 
@@ -64,8 +63,8 @@ Method Invoke Statements
 
 ---
 ## ATTENTION
-- Different java files in the same jar pack are run in multi-threads which might lead some unexpected consequence.
-- Dependencies are included in the file `pom.xml`
+- Different java files in the same `.jar` package are run in multi-threads which might lead to some unexpected consequences.
+- Dependencies are included in the file `pom.xml`.
 
 ---
 
